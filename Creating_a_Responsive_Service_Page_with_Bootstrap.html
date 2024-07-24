@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating a Responsive Service Page with Bootstrap</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+<script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+</head> 
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col bg-secondary text-center">
+                Tech Support
+            </div>
+        </div>
+
+        <div class="row-4">
+
+            <div class="col bg-primary-subtle">
+            <img src="it_support.jpg" width="100px" alt="a laptop computer">
+                IT Support.
+                
+                Problems with your device? Need help troubeshooting? Contact us and we may be able to help!
+            </div>
+
+            <div class="col bg-danger-subtle">
+                <div class="col bg-primary-subtle">
+                    <img src="hardware.jpg" class="img-fluid" width="100px" alt="components inside of a computer">
+                Hardware Issues.
+
+                Having technical difficulties? Your device acting up or no longer working? Bring it down and may be able to bring it back to life!
+            </div>
+
+            <div class="col bg-success-subtle">
+                <div class="col bg-primary-subtle">
+                    <img src="software.jpg" width="100px" alt="a sample of code being written to build software">
+                Software Updates.
+
+                Got questions about our software/updates? Check out this page for all the info you need!
+            </div>
+
+        </div>
+        
+        <div class="row">
+            <div class="col-4 bg-dark-subtle">
+                About Us
+            </div>
+            <div class="col-8 bg-body-secondary">
+                We started in 1995 and have been helping people with their technology problems ever since! We have seen it all from dial-up modems to smartphones! Need help? Give us a call!
+            </div>
+        </div>
+
+        </div>
+        
+            <div class="row-4 bg-warning">
+                Need help? Connect with us
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>First Name:</label>
+                <input>
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>Last Name:</label>
+                <input>
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>Email:</label>
+                <input>
+            </div>
+
+            <div class="row-4 bg-warning">
+                Please select the service(s) you need.
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <input class="it-support-input" type="radio" name="it-support" id="it-support">
+                <label class="it-support-label" for="it-support"></label>
+                <label>IT Support</label>
+                
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <input class="hardware-issues-input" type="radio" name="hardware-issues" id="hardware-issues">
+                <label class="hardware-issues-label" for="hardware-issues"></label>
+                <label>Hardware Issues</label>
+                
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <input class="software-updates-input" type="radio" name="software-updates" id="software-updates">
+                <label class="software-updates-label" for="software-updates"></label>
+                <label>Software Updates</label>
+            </div>
+
+            <div class="row-4 bg-warning-subtle">
+                <label>Please give us a quick description of the issue you are facing:</label>
+                <input>
+            </div>
+
+            <button>
+                Submit
+            </button>
+
+        </div>
+        
+
+    </div>
+</body>
+</html>
